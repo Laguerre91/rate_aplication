@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+
+  <section id="section_1">
+      <div class="object_1 star_image">
+        <img src="./images/icon-star.svg" alt="star icon">
+      </div>
+      <h3 id="title_1" class="object_1">How did we do?</h3>
+
+     <p class="object_1 paragraph">Please let us know how we    did  with your support request. All feedback is appreciated to help us improve our offering!</p> 
+
+      <div id="container_numbers">
+        <button class="numbers" value="1">1</button>
+        <button class="numbers" value="2">2</button>
+        <button class="numbers" value="3">3</button>
+        <button class="numbers" value="4">4</button>
+        <button class="numbers" value="5">5</button>
+      </div>
+      <button id="submit">SUBMIT</button>
+  </section>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+  <section id="section_2" style="display: none;">
+      <img class="section_ty" src="./images/illustration-thank-you.svg" alt="thank you">
+
+      <div class="section_ty selected">
+        <p class="section_ty"> <span id="rate" class="span section_ty"></span></p> 
+      </div>
+      
+      <h3 class="section_ty">Thank you!</h3>
+
+      <p id="section_ty" class="section_ty ">We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+  </section>
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/lara-aguerre/">Lara Aguerre</a>.
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>

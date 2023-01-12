@@ -1,0 +1,134 @@
+*{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+#section_1{
+    background-color: hsl(213, 19%, 18%);
+    display: grid;
+    align-content: center;
+    justify-items: start;
+    margin: 18%;
+    margin-left: 35%;
+    color: white;
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+}
+
+#title_1{
+    font-size: 25px;
+}
+
+.object_1{
+    margin: 20px;
+    background-color:hsl(213, 19%, 18%);
+}
+
+.paragraph{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.star_image{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(214, 11%, 24%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+img{
+    background-color: hsl(214, 11%, 24%) ;
+}
+
+#container_numbers{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    width: 90%;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(213, 27%, 15%);
+    width: 50px;
+    height: 50px;
+    border: 0ch;
+    border-radius: 50px;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.numbers:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.numbers:active{
+    background-color: hsl(25, 97%, 53%);
+}
+
+#submit{
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    width: 300px;
+    height: 35px;
+    border: 0ch;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+#submit:active{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+#section_2{
+    background-color: hsl(213, 19%, 18%);
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    margin: 18%;
+    margin-left: 35%;
+    color: white;
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+#section_ty{
+    width: 85%;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+}
+
+.section_ty{
+    background-color: hsl(213, 19%, 18%);
+    margin: 0;
+}
+
+.selected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 11%, 21%);
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    color: hsl(25, 97%, 53%);
+}
+
+.span{
+    background-color: hsl(210, 11%, 21%);
+}
+
+.attribution{
+    color: white;
+}
